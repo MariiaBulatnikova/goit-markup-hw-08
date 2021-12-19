@@ -896,6 +896,7 @@ img {
   .subscribe__input {
     margin-right: 12px;
     width: 358px;
+    margin-bottom: 0;
   }
 }
 
