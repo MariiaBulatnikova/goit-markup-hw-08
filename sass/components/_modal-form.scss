@@ -103,13 +103,20 @@
 
 .modal__policy {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 6px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .modal__check {
