@@ -56,9 +56,11 @@
 </button>
 </div>
 
-<div class="mob-menu">
+<div class="mob-menu is-hidden">
+
+    <div class="container mob-menu__container">
 <button class="close-menu-btn" type="button">
-    <svg class="close-menu-btn__icon" width="24" height="16">
+    <svg class="close-menu-btn__icon" width="19" height="19">
         <use href="./images/icon.svg#icon-close-black-18dp-2-1-1"></use>
     </svg>
 </button>
@@ -71,24 +73,27 @@
 
 <ul class="list mob-menu-contacts">
 
-    <li class="mob-menu-contacts__item"><a class="link mob-menu-contacts__link" 
+    <li class="mob-menu-contacts__item"><a class="link mob-menu-tel__link" href="tel:+38-096-111-11-11">
+            +38 096 111 11 11</a>
+    </li>
+
+    <li class="mob-menu-contacts__item"><a class="link mob-menu-mail__link" 
         href="mailto:info@devstudio.com">
         info@devstudio.com</a>
     </li>
 
 
-    <li class="mob-menu-contacts__item"><a class="link mob-menu-contacts__link" 
-        href="tel:+38-096-111-11-11">
-    +38 096 111 11 11</a>
-    </li>
+
 </ul>
 
-<ul class="mob-menu-social">
-    <li class="mob-menu-social__item"><a href="" class="mob-menu-social__link">Instagram</a></li>
-    <li class="mob-menu-social__item"><a href="" class="mob-menu-social__link">Twitter</a></li>
-    <li class="mob-menu-social__item"><a href="" class="mob-menu-social__link">Facebook</a></li>
-<li class="mob-menu-social__item"><a href="" class="mob-menu-social__link">LinkedIn</a></li>
+<ul class="list mob-menu-social">
+    <li class="mob-menu-social__item"><a  href="" class="link mob-menu-social__link">Instagram <span class="devider">|</span></a></li>
+    <li class="mob-menu-social__item"><a  href="" class="link mob-menu-social__link">Twitter <span class="devider">|</span></a></li>
+    <li class="mob-menu-social__item"><a  href="" class="link mob-menu-social__link">Facebook <span class="devider">|</span></a></li>
+<li class="mob-menu-social__item"><a chref="" class="link mob-menu-social__link">LinkedIn </a></li>
 </ul>
+</div>
+
 </div>
 
     </header>
@@ -694,6 +699,7 @@ placeholder="Ведите текст"></textarea>
     </div>
 
  <script src="./js/modal.js"></script> 
+<script src="./js/menu.js"></script>
 
 </body>
 </html>
